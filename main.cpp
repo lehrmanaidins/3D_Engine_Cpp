@@ -1,6 +1,8 @@
 /*
     main.cpp
     @author Lehrman, Aidin
+
+    https://www.sitepoint.com/write-3d-soft-engine-scratch-part-1/
 */
 
 #include <iostream>

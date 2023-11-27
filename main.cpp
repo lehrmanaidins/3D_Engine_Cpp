@@ -7,11 +7,12 @@
 
 #include <iostream>
 #include "Vector3.cpp"
+#include "WritableBitMap.cpp"
 
 using namespace std;
 
-int main(){
-    Vector3 vector = {1, 2, 3};
-    cout << vector;
+int main() {
+    WritableBitMap image(10, 10);
+    image.renderFrame();
     return 0;
-}
+};
